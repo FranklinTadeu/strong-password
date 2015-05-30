@@ -1,0 +1,33 @@
+<!-- Modificado por Franklin Tadeu -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Exercício de Senha Forte</title>
+<script type="text/javascript" src="senha.js"></script>
+
+</head>
+
+<body >
+
+<p>Regras para a formulação da Senha: </p>
+<ul>
+	<li>A senha deve ter pelo menos 8 caracteres.<br></li>
+	<li>A senha deve possuir pelo menos 3 dos 4 critérios abaixo:</li>
+		<ul>
+			<li>Possuir pelo menos 1 caractere minúsculo<br></li>
+			<li>Possuir pelo menos 1 caractere maiúsculo<br></li>
+			<li>Possuir pelo menos 1 caractere número<br></li>
+			<li>Possuir pelo menos 1 caractere símbolo</li>
+		</ul>
+	
+<p>Digite uma senha qualquer:&emsp;<input type="password" name="senha" id="senha" onKeyUp="Verifica(this.value);"></input></p>
+
+<div id="sobreSenha"></div><br />
+<div id="sobreSenha2"></div><br />
+
+
+<input type="checkbox" id="aceitavel"> Senha aceitável ?</input>
+</body>
+</html>
